@@ -35,19 +35,23 @@
             transform: skew(2deg,-5deg) translateY(-95px);
             position: relative;
         }
+
+        #description {
+          font-size: 18px
+        }
     </style>
 </head>
 
 <body>
 
     <div class="topSkewedBox"></div>
-    <div class="profilePictureBox">
+    <div class="profilePictureBox offset-sm-3">
         <img style="height: 200px; width:200px; border:20px solid rgb(8, 146, 146)" class="rounded-circle" src="https://avatars0.githubusercontent.com/u/20015769?s=460&v=4">
     </div>
     <div class="offset-5">
         <div style="background:teal;height:40px;width:40px;margin-left:255px" class="rounded-circle"></div>
     </div>
-    <div class="jumbotron text-center mb-5" style="background-color: rgba(233,236,239,0);">
+    <div class="jumbotron text-center mb-5" style="background-color: rgba(233,236,239,0);" id="description">
         <h1 style="color: #0e0b0b;"><strong>Piyush Yadav&nbsp;</strong></h1>
         <h5 class="text-muted mt-3"><strong>Full Stack Developer</strong></h5>
         <ul class="list-inline mt-3 mb-4">
@@ -56,29 +60,29 @@
             <li class="list-inline-item text-muted"><i class="fa fa-envelope" style="color: teal;"></i><strong>&nbsp; work.piyush.yadav@gmail.com</strong></li>
         </ul>
         <!-- Description Area -->
-        <p class="text-center text-muted">
-            I'm a Bangalore based web designer and Full-Stack Developer. 
-            <br>Focused on crafting clean and user-friendly experiences. 
+        <p class="text-center text-muted" id="description">
+            I'm a Bangalore based web designer and Full-Stack Developer.
+            <br>Focused on crafting clean and user-friendly experiences.
             <br>Coder who focuses on writing clean, elegant and efficient code.&nbsp;
         </p>
         <div class="container mb-3 mt-5">
             <div class="row">
-                <div class="col mb-3"><img class="rounded-circle shadow-sm" src="assets/img/html5.svg" style="background-color: #9CD4F0;width: 111px;padding: 12px;"></div>
-                <div class="col mb-3"><img class="rounded-circle shadow-sm" src="assets/img/git.svg" style="background-color: #9CD4F0;width: 111px;padding: 12px;"></div>
-                <div class="col mb-3"><img class="rounded-circle shadow-sm" src="assets/img/bootstrap.svg" style="background-color: #9CD4F0;width: 111px;padding: 12px;"></div>
-                <div class="col mb-3"><img class="rounded-circle shadow-sm" src="assets/img/javascript.svg" style="background-color: #9CD4F0;width: 111px;padding: 12px;"></div>
+                <div class="col mb-3"><img class="rounded-circle shadow-sm" src="assets/img/html5.svg" style="background-color: rgb(8, 146, 146);width: 111px;padding: 12px;"></div>
+                <div class="col mb-3"><img class="rounded-circle shadow-sm" src="assets/img/git.svg" style="background-color: rgb(8, 146, 146);width: 111px;padding: 12px;"></div>
+                <div class="col mb-3"><img class="rounded-circle shadow-sm" src="assets/img/bootstrap.svg" style="background-color: rgb(8, 146, 146);width: 111px;padding: 12px;"></div>
+                <div class="col mb-3"><img class="rounded-circle shadow-sm" src="assets/img/javascript.svg" style="background-color: rgb(8, 146, 146);width: 111px;padding: 12px;"></div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col mb-3"><img class="rounded-circle shadow-sm" src="assets/img/css.png" style="background-color: #9CD4F0;width: 111px;padding: 15px;"></div>
-                <div class="col mb-3"><img class="rounded-circle shadow-sm" src="assets/img/react.svg" style="background-color: #9CD4F0;width: 111px;padding: 12px;"></div>
-                <div class="col mb-3"><img class="rounded-circle shadow-sm" src="assets/img/python.svg" style="background-color: #9CD4F0;width: 111px;padding: 12px;"></div>
-                <div class="col mb-3"><img class="rounded-circle shadow-sm" src="assets/img/flask.svg" style="background-color: #9CD4F0;width: 111px;padding: 12px;"></div>
+                <div class="col mb-3"><img class="rounded-circle shadow-sm" src="assets/img/css.png" style="background-color: rgb(8, 146, 146);width: 111px;padding: 15px;"></div>
+                <div class="col mb-3"><img class="rounded-circle shadow-sm" src="assets/img/react.svg" style="background-color: rgb(8, 146, 146);width: 111px;padding: 12px;"></div>
+                <div class="col mb-3"><img class="rounded-circle shadow-sm" src="assets/img/python.svg" style="background-color: rgb(8, 146, 146);width: 111px;padding: 12px;"></div>
+                <div class="col mb-3"><img class="rounded-circle shadow-sm" src="assets/img/flask.svg" style="background-color: rgb(8, 146, 146);width: 111px;padding: 12px;"></div>
             </div>
         </div>
     </div>
-</div> 
+</div>
     <div class="mb-5 mt-5">
         <h2 class="text-center text-muted"><strong>Proficiencies</strong></h2>
     </div>
@@ -129,7 +133,7 @@
                                 <div style="margin-top: 30px; float: left; margin-left: 20px">
                                     <img style = "width: 30px" src = "https://ih0.redbubble.net/image.370541787.7231/flat,800x800,070,f.jpg" alt ="" >
                                 </div>
-                                
+
                                 <div style="margin-top: 30px; float: left; margin-left: 20px">
                                     <img style = "width: 30px" src = "https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png" alt ="" >
                                 </div>
@@ -270,11 +274,11 @@
     </div>
     <!-- Key STATS -->
     <div class="container-fluid" style="background: #C8F2EE; box-shadow: 3px 3px 5px 3px black; width: 97vw">
-            <div class="row h-100 offset-2" style="margin-bottom: 150px">
-                <div class="col-lg-3 col-md-12 col-sm-12 mt-5 ml-5">
+            <div class="row h-100 offset-lg-1 offset-md-3 offset-sm-3 offset-2" style="margin-bottom: 150px">
+                <div class="col-lg-2 col-md-12 col-sm-12 mt-5 ml-5">
                     <div style="width: 200px;height:200px; background: #C8F2EE;border-radius: 50%;border:30px solid;border-color: white white teal teal" class="mt-1">
                         <p class="text-center font-weight-bold" style="margin-top: 60px;font-size: 35px">
-                            750+
+                            1000+
                         </p>
                     </div>
                     <p class="offset-1 mt-5 font-weight-bold" style="color:#5D86B4; font-size: 35px">Hours</p>
@@ -282,10 +286,10 @@
                         of full stack coding
                     </p>
                 </div>
-                <div class="col-lg-3 col-md-12 col-sm-12 mt-5 ml-5">
+                <div class="col-lg-2 col-md-12 col-sm-12 mt-5 offset-1">
                     <div style="width: 200px;height:200px; background: #C8F2EE;border-radius: 50%;border:30px solid;border-color: white white teal" class="mt-1">
                         <p class="text-center font-weight-bold" style="margin-top: 60px;font-size: 35px">
-                            100+
+                            200+
                         </p>
                     </div>
                     <p class="display-4 mt-5 font-weight-bold" style="margin-left: 0px;color:#5D86B4;font-size: 35px">HackerRank</p>
@@ -293,15 +297,26 @@
                         Problems
                     </p>
                 </div>
-                <div class="col-lg-3 col-md-12 col-sm-12 mt-5 ml-5">
+                <div class="col-lg-2 col-md-12 col-sm-12 mt-5 offset-1">
                     <div style="width: 200px;height:200px; background: #C8F2EE;border-radius: 50%;border:30px solid;border-color: teal teal  white white" class="mt-1">
                         <p class="text-center font-weight-bold" style="margin-top: 60px;font-size: 35px">
-                            300+
+                            350+
                         </p>
                     </div>
                     <p class="offset-2  mt-5 font-weight-bold" style="color:#5D86B4; font-size: 35px">Git</p>
                     <p style="font-size: 25px; margin-left: 40px;color:#5D86B4">
                         Commits
+                    </p>
+                </div>
+                <div class="col-lg-2 col-md-12 col-sm-12 mt-5 offset-1">
+                    <div style="width: 200px;height:200px; background: #C8F2EE;border-radius: 50%;border:30px solid;border-color: teal teal  white white" class="mt-1">
+                        <p class="text-center font-weight-bold" style="margin-top: 60px;font-size: 35px">
+                            20+
+                        </p>
+                    </div>
+                    <p class="offset-2  mt-5 font-weight-bold" style="color:#5D86B4; font-size: 35px">Coding</p>
+                    <p style="font-size: 25px; margin-left: 40px;color:#5D86B4">
+                        Projects
                     </p>
                 </div>
             </div>
@@ -317,10 +332,11 @@
         <script type="text/javascript">
             GitHubCalendar(".calendar", "piyush-git",
                 {
-                    responsive: true
+                    responsive: true,
+                    // global_stats: false
                 });
         </script>
-    
+
 </body>
 
 </html>
